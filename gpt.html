@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EduAcademy - Night Mode</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* Night Sky Theme */
+        body {
+            background: linear-gradient(to right, 
+                        rgba(0, 0, 0, 1) 0%,  
+                        rgba(0, 0, 0, 0.92) 12%, 
+                        black 50%, 
+                        rgba(0, 0, 0, 0.92) 88%, 
+                        rgba(0, 0, 0, 1) 100%);
+            color: white;
+            min-height: 100vh;
+        }
+        
+        /* Navbar */
+        .navbar {
+            background-color: black !important;
+            padding: 5px 0;
+        }
+
+        /* Text Styling - Like Stars */
+        h1, h2, h4, p, a {
+            color: white !important;
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+        }
+
+        .card {
+            background-color: rgba(255, 255, 255, 0.1);
+            border: none;
+            color: white;
+        }
+
+        /* Footer */
+        footer {
+            background-color: black;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container d-flex justify-content-center">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link text-white fw-bold text-uppercase text-center px-2 px-md-4"
+                   style="font-family: 'Poppins', sans-serif; 
+                          letter-spacing: 0.5px; 
+                          text-shadow: 1px 1px 5px rgba(255,255,255,0.2); 
+                          white-space: nowrap;">
+                    Hire from Us
+                </a>
+            </li>
+            <li class="nav-item mx-2 mx-md-4">
+                <a class="nav-link text-white fw-bold text-uppercase text-center px-2 px-md-4"
+                   style="font-family: 'Poppins', sans-serif; 
+                          letter-spacing: 0.5px; 
+                          text-shadow: 1px 1px 5px rgba(255,255,255,0.2); 
+                          white-space: nowrap;">
+                    Change Your Career with Us
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+    
+    
+    <header class="text-center py-5 position-relative" 
+    style="margin-top: 100px; font-family: 'Poppins', sans-serif;">
+
+<div class="container">
+    <div class="row align-items-center justify-content-center gap-5">
+
+        <!-- Left Section: Image -->
+        <div class="col-12 col-md-5 text-center text-md-start">
+            <img src="abcd.png" alt="Achu Joseph S L" class="img-fluid shadow-lg"
+                 style="max-width: 100%; height: auto; object-fit: cover; border-radius: 0 0 50px 50px;">
+        </div>
+
+        <!-- Right Section: Text & CTA -->
+        <div class="col-12 col-md-6 text-center text-md-start">
+
+            <!-- Main Heading -->
+            <h1 class="fw-bold display-4 text-light"
+                style="letter-spacing: 1px; text-shadow: 2px 2px 5px rgba(255,255,255,0.1);">
+                Welcome to EduAcademy
+            </h1>
+
+            <p class="fs-5 text-secondary">
+                Your Gateway to a Successful IT Career  
+            </p>
+
+            <!-- Powerful Messaging -->
+            <div class="mb-4">
+                <p class="fw-bold text-light fs-5" style="line-height: 1.6;">
+                    If you're ready to invest your time and have the urge to learn,  
+                    <span class="text-warning fw-bold">we're ready to transform your life.</span>  
+                    This is not just a training center – it's a <span class="text-success">Transformation Hub</span>.  
+                    Gain <span class="text-warning">communication skills, presentation confidence, and industry-ready expertise.</span>
+                </p>
+            </div>
+
+            <!-- CTA Buttons -->
+            <div class="d-flex flex-column flex-md-row gap-3 justify-content-center justify-content-md-start">
+                <a href="#courses" class="btn px-4 py-3 fw-bold fs-5 shadow-sm"
+                   style="background: linear-gradient(135deg, #222, #444); color: #fff; border-radius: 10px;
+                          transition: all 0.3s ease; font-family: 'Poppins', sans-serif;">
+                    🎓 Explore Courses
+                </a>
+
+                <a href="https://wa.me/YOUR_NUMBER_HERE" target="_blank" class="btn px-4 py-3 fw-bold fs-5 shadow-sm"
+                   style="background: linear-gradient(135deg, #00c853, #009624); color: #fff; border-radius: 10px;
+                          transition: all 0.3s ease; font-family: 'Poppins', sans-serif;">
+                    📞 Get Free Career Guidance
+                </a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+</header>
+
+
+    <!-- About Us -->
+    <section id="about" class="py-5 text-center">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Learn from experienced professionals with real-world expertise.</p>
+            <video width="80%" controls>
+                <source src="about-us.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+
+    <!-- Courses -->
+    <section id="courses" class="py-5">
+        <div class="container text-center">
+            <h2>Our Courses</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card p-3">
+                        <h4>MERN Stack Development</h4>
+                        <p>Master full-stack development with MongoDB, Express, React, and Node.js.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card p-3">
+                        <h4>MEAN Stack Development</h4>
+                        <p>Learn Angular, MongoDB, Express, and Node.js for full-stack development.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card p-3">
+                        <h4>Python & Django</h4>
+                        <p>Build dynamic web applications with Python and Django framework.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Team -->
+    <section id="team" class="py-5 text-center">
+        <div class="container">
+            <h2>Meet Our Team</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="team1.jpg" class="rounded-circle" width="150" alt="Team Member">
+                    <h5>John Doe</h5>
+                    <p>Lead Instructor</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="team2.jpg" class="rounded-circle" width="150" alt="Team Member">
+                    <h5>Jane Smith</h5>
+                    <p>Software Engineer & Mentor</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="team3.jpg" class="rounded-circle" width="150" alt="Team Member">
+                    <h5>Michael Brown</h5>
+                    <p>Backend Specialist</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Founder & CEO -->
+    <section id="founder" class="py-5 text-center">
+        <div class="container">
+            <h2>Founder & CEO</h2>
+            <img src="founder.jpg" class="rounded-circle mb-3" width="150" alt="Founder">
+            <h4>Achu Joseph S L</h4>
+            <p>Passionate Software Engineer & Entrepreneur, Founder of EduAcademy.</p>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="py-5 text-center">
+        <div class="container">
+            <h2>What Our Students Say</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <blockquote class="blockquote">
+                        <p>"This course changed my career! Highly recommended!"</p>
+                        <footer class="blockquote-footer">Student A</footer>
+                    </blockquote>
+                </div>
+                <div class="col-md-4">
+                    <blockquote class="blockquote">
+                        <p>"The best mentors and hands-on learning experience!"</p>
+                        <footer class="blockquote-footer">Student B</footer>
+                    </blockquote>
+                </div>
+                <div class="col-md-4">
+                    <blockquote class="blockquote">
+                        <p>"I landed a job thanks to this program!"</p>
+                        <footer class="blockquote-footer">Student C</footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact" class="py-5 text-center">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form class="w-50 mx-auto">
+                <div class="mb-3">
+                    <input type="text" class="form-control" placeholder="Your Name" required>
+                </div>
+                <div class="mb-3">
+                    <input type="email" class="form-control" placeholder="Your Email" required>
+                </div>
+                <div class="mb-3">
+                    <textarea class="form-control" rows="3" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-light">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <p>&copy; 2025 EduAcademy. All Rights Reserved.</p>
+    </footer>
+<!-- Marketing Quotes Container -->
+<div id="marketing-quote" 
+     class="position-absolute p-3 text-light fw-bold fs-5 rounded-pill shadow-lg d-none d-md-block"
+     style="background: rgba(0, 0, 0, 0.75); font-family: 'Poppins', sans-serif; transition: all 1s ease-in-out;">
+</div>
+<!-- Bootstrap Modal -->
+<div class="modal fade" id="userDetailsModal" tabindex="-1" aria-labelledby="userDetailsModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content text-light" style="background: linear-gradient(135deg, #222, #444); border-radius: 15px;">
+            
+            <!-- Modal Header -->
+            <div class="modal-header border-0">
+                <h5 class="modal-title fw-bold" id="userDetailsModalLabel" style="font-family: 'Poppins', sans-serif;">
+                    📢 Let's Stay Connected!
+                </h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <!-- Modal Body -->
+            <div class="modal-body">
+                <p class="mb-4 text-center">Fill in your details and be a part of our amazing community.</p>
+
+                <form id="userDetailsForm">
+                    <div class="mb-3">
+                        <input type="text" class="form-control rounded-3 bg-dark text-light" placeholder="Your Name" required>
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control rounded-3 bg-dark text-light" placeholder="Your Email" required>
+                    </div>
+                    <div class="mb-3">
+                        <input type="tel" class="form-control rounded-3 bg-dark text-light" placeholder="Phone Number" required>
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" class="form-control rounded-3 bg-dark text-light" placeholder="Your Place" required>
+                    </div>
+                    <div class="mb-3">
+                        <select class="form-select rounded-3 bg-dark text-light" required>
+                            <option value="" disabled selected>Highest Qualification</option>
+                            <option value="High School">High School</option>
+                            <option value="Diploma">Diploma</option>
+                            <option value="Bachelor's">Bachelor's</option>
+                            <option value="Master's">Master's</option>
+                            <option value="PhD">PhD</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="btn w-100 fw-bold py-2" 
+                            style="background: linear-gradient(135deg, #00c853, #009624); color: #fff; border-radius: 10px;">
+                        ✅ Submit
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        if (!sessionStorage.getItem("modalShown")) {
+            setTimeout(function () {
+                let userModal = new bootstrap.Modal(document.getElementById("userDetailsModal"));
+                userModal.show();
+                sessionStorage.setItem("modalShown", "true"); 
+            }, 6000); // 1 Minute
+        }
+    });
+    // List of marketing quotes
+    const quotes = [
+        "✨ Your future starts here – Invest in yourself today!",
+        "🚀 The best way to predict the future is to create it!",
+        "Your dream job is one step away – Keep learning, keep growing!",
+        "💡 Knowledge is power, and power leads to success!",
+        "Small steps today lead to big achievements tomorrow!",
+        "💻 The IT world is waiting for you – Start your journey now!",
+        "Education is the passport to the future. Secure yours now!",
+        "🔑 Unlock your potential with hands-on learning and real projects!"
+    ];
+
+    // Possible positions
+    const positions = [
+        { top: "10%", left: "5%" },
+        { top: "10%", right: "5%" },
+        { bottom: "10%", left: "5%" },
+        { bottom: "10%", right: "5%" }
+    ];
+
+    const quoteElement = document.getElementById("marketing-quote");
+
+    function updateQuote() {
+        // Get a random quote
+        const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+        
+        // Get a random position
+        const randomPosition = positions[Math.floor(Math.random() * positions.length)];
+        
+        // Show quote with fade-in
+        quoteElement.textContent = randomQuote;
+        quoteElement.style.top = randomPosition.top || "auto";
+        quoteElement.style.bottom = randomPosition.bottom || "auto";
+        quoteElement.style.left = randomPosition.left || "auto";
+        quoteElement.style.right = randomPosition.right || "auto";
+        quoteElement.style.opacity = "1";
+
+        // Hide after 10 seconds
+        setTimeout(() => {
+            quoteElement.style.opacity = "0";
+        }, 10000);
+
+        // Wait 30 seconds before showing next quote
+        setTimeout(updateQuote, 40000);
+    }
+
+    // Start cycle
+    setTimeout(updateQuote, 1000);
+</script>
+</html>

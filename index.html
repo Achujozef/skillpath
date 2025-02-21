@@ -120,71 +120,84 @@
 
     
     
-    <header class="text-center py-5 position-relative" 
+   <header class="text-center py-5 position-relative"
     style="margin-top: 100px; font-family: 'Poppins', sans-serif;">
 
-<div class="container">
-    <div class="row align-items-center justify-content-center gap-5">
+    <div class="container-fluid px-3"> <!-- Changed to container-fluid & reduced padding -->
+        <div class="row align-items-center justify-content-center gap-5">
 
-        <!-- Left Section: Image -->
-        <div class="col-12 col-md-5 text-center text-md-start">
-            <img src="abcd.png" alt="Achu Joseph S L" class="img-fluid shadow-lg"
-                 style="max-width: 100%; height: auto; object-fit: cover; border-radius: 0 0 50px 50px;">
-        </div>
+            <!-- Left Section: Image -->
+            <div class="col-12 col-md-5 text-center text-md-start">
+                <img src="abcd.png" alt="Achu Joseph S L" class="img-fluid shadow-lg"
+                    style="max-width: 100%; height: auto; object-fit: cover; border-radius: 0 0 50px 50px;">
+            </div>
 
-        <!-- Right Section: Text & CTA -->
-        <div class="col-12 col-md-6 text-center text-md-start">
+            <!-- Right Section: Text & CTA -->
+            <div class="col-12 col-md-6 text-center text-md-start">
 
-            <!-- Main Heading -->
-            <h1 class="fw-bold display-4 text-light"
-                style="letter-spacing: 1px; text-shadow: 2px 2px 5px rgba(255,255,255,0.1);">
-                Welcome to EduAcademy
-            </h1>
+                <!-- Main Heading -->
+                <h1 class="fw-bold display-4 text-light"
+                    style="letter-spacing: 1px; text-shadow: 2px 2px 5px rgba(255,255,255,0.1);">
+                    Welcome to EduAcademy
+                </h1>
 
-            <p class="fs-5 text-secondary">
-                Your Gateway to a Successful IT Career  
-            </p>
-
-            <!-- Powerful Messaging -->
-            <div class="mb-4">
-                <p class="fw-bold text-light fs-5" style="line-height: 1.6;">
-                    If you're ready to invest your time and have the urge to learn,  
-                    <span class="text-warning fw-bold">we're ready to transform your life.</span>  
-                    This is not just a training center – it's a <span class="text-success">Transformation Hub</span>.  
-                    Gain <span class="text-warning">communication skills, presentation confidence, and industry-ready expertise.</span>
+                <p class="fs-5 text-secondary">
+                    Your Gateway to a Successful IT Career  
                 </p>
+
+                <!-- Powerful Messaging -->
+                <div class="mb-4">
+                    <p class="fw-bold text-light fs-5" style="line-height: 1.6;">
+                        If you're ready to invest your time and have the urge to learn,  
+                        <span class="text-warning fw-bold">we're ready to transform your life.</span>  
+                        This is not just a training center – it's a <span class="text-success">Transformation Hub</span>.  
+                        Gain <span class="text-warning">communication skills, presentation confidence, and industry-ready expertise.</span>
+                    </p>
+                </div>
+
+                <!-- CTA Buttons -->
+                <div class="d-flex flex-column flex-md-row gap-3 justify-content-center justify-content-md-start">
+                    <a href="#courses" class="btn px-4 py-3 fw-bold fs-5 shadow-sm"
+                        style="background: linear-gradient(135deg, #222, #444); color: #fff; border-radius: 10px;
+                                transition: all 0.3s ease; font-family: 'Poppins', sans-serif;">
+                        🎓 Explore Courses
+                    </a>
+
+                    <a href="https://wa.me/YOUR_NUMBER_HERE" target="_blank" class="btn px-4 py-3 fw-bold fs-5 shadow-sm"
+                        style="background: linear-gradient(135deg, #00c853, #009624); color: #fff; border-radius: 10px;
+                                transition: all 0.3s ease; font-family: 'Poppins', sans-serif;">
+                        📞 Get Free Career Guidance
+                    </a>
+                </div>
+
             </div>
-
-            <!-- CTA Buttons -->
-            <div class="d-flex flex-column flex-md-row gap-3 justify-content-center justify-content-md-start">
-                <a href="#courses" class="btn px-4 py-3 fw-bold fs-5 shadow-sm"
-                   style="background: linear-gradient(135deg, #222, #444); color: #fff; border-radius: 10px;
-                          transition: all 0.3s ease; font-family: 'Poppins', sans-serif;">
-                    🎓 Explore Courses
-                </a>
-
-                <a href="https://wa.me/YOUR_NUMBER_HERE" target="_blank" class="btn px-4 py-3 fw-bold fs-5 shadow-sm"
-                   style="background: linear-gradient(135deg, #00c853, #009624); color: #fff; border-radius: 10px;
-                          transition: all 0.3s ease; font-family: 'Poppins', sans-serif;">
-                    📞 Get Free Career Guidance
-                </a>
-            </div>
-
         </div>
     </div>
-</div>
-
 </header>
 
 
 <section id="about" class="py-5 position-relative">
-    <div class="container">
+    <div class="container-fluid px-md-5 px-lg-10"> 
+        
+        <!-- Common Heading (Centered) -->
+        <div class="row">
+            <div class="col-12 text-center mb-5">
+                <h2 class="fw-bold text-uppercase"
+                    style="font-family: 'Poppins', sans-serif; 
+                           letter-spacing: 1.5px;
+                           text-shadow: 0 0 15px rgba(255,255,255,0.6);">
+                    🚀 About <span class="text-warning">EduAcademy</span>
+                </h2>
+            </div>
+        </div>
+
+        <!-- Video & Text Content -->
         <div class="row align-items-center">
             
             <!-- Left Side: YouTube Video -->
             <div class="col-lg-6 mb-4 mb-lg-0 text-center">
-                <div class="position-relative shadow-lg rounded-4 overflow-hidden">
-                    <iframe width="100%" height="315" 
+                <div class="position-relative shadow-lg rounded-4 overflow-hidden w-100">
+                    <iframe width="100%" height="615" 
                         src="https://www.youtube.com/embed/Xh8B6W7RUfA?si=m_AKfoBsoaIFRBih" 
                         title="YouTube video player" frameborder="0" 
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
@@ -197,14 +210,7 @@
 
             <!-- Right Side: Text Content -->
             <div class="col-lg-6 text-center text-lg-start">
-                <h2 class="fw-bold mb-4 text-uppercase"
-                    style="font-family: 'Poppins', sans-serif; 
-                           letter-spacing: 1.5px;
-                           text-shadow: 0 0 15px rgba(255,255,255,0.6);">
-                    🚀 About <span class="text-warning">EduAcademy</span>
-                </h2>
-                
-                <p class="fs-5 text-light   " 
+                <p class="fs-5 text-light" 
                    style="line-height: 1.8; font-family: 'Poppins', sans-serif;">
                     **EduAcademy is not just a training center – it’s a transformation hub.**  
                     We help passionate learners **bridge the gap between education and the IT industry**  
@@ -230,6 +236,8 @@
         </div>
     </div>
 </section>
+
+
 
 
 
@@ -400,7 +408,7 @@
 
 
 <section id="team" class="py-5 position-relative"
-    style="background: #0F172A; color: #fff;">
+>
     <div class="container">
         <!-- Section Title -->
         <div class="text-center mb-5">
@@ -490,8 +498,7 @@
 </section>
 
 <!-- Founder & CEO Section -->
-<section id="founder" class="py-5 text-center position-relative"
-         style="background: #0F172A; color: #fff;">
+<section id="founder" class="py-5 text-center position-relative">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-8">
@@ -562,10 +569,9 @@
 </section>
 
 
-
+<!-- style="background: #0F172A; color: #fff;" -->
 <!-- Testimonials Section -->
-<section id="testimonials" class="py-5 position-relative"
-         style="background: #0F172A; color: #fff;">
+<section id="testimonials" class="py-5 position-relative">
     <div class="container">
         <!-- Section Title -->
         <div class="text-center mb-5">
